@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PageLines Documentation</title>
+    <meta name="description" content="A powerful front-end drag and drop design management system for fast and easy web development.">
+
+    <base href="http://docs.pagelines.com/">
+
+    <!-- styles -->
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="/css/docs.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+    <link href="/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link rel='stylesheet' id='master_font_import' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,800|Source+Sans+Pro:400,600' media='screen'>
+    <link rel="shortcut icon" href="http://docs.pagelines.com/img/favicon.png" type="image/x-icon" />
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div id="wrap">
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="brand" href="http://docs.pagelines.com/"><img src="http://docs.pagelines.com/img/logo.png" /></a> 
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right nav-detect">
+                            <li><a href="/developer"><i class="icon-code"></i> Developer Docs</a></li>
+                            <li><a href="http://www.pagelines.com"><i class="icon-home"></i> Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container section">
+            <section>
+                <div class="row-fluid">
+                    <div class="span3 docs-nav nav-detect">
+                        <ul class="nav nav-list active-menu">
+                            <li><p class="lead"><a href="/getting-started/system-requirements">Getting Started</a></p></li>
+                            <li><a href="/getting-started/system-requirements">Requirements <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/getting-started/installation">Installation <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/getting-started/upgrading-migration">Upgrading & Migration <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/getting-started/dashboard-account">Dashboard & Your Account <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/configure/visual-editor-overview">Configure</a></p></li>
+                            <li><a href="/configure/visual-editor-overview">Visual Editor Overview <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/configuring-sections">Sections Overview <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/using-templates">Using Templates <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/global-options">Using Global Options <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/pagelines-store">PageLines Store <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/customize/how-to-customize">Customize</a></p></li>
+                            <li><a href="/customize/how-to-customize">How to Customize <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/dms-customize-options">DMS Customize Options <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/pagelines-customize-plugin">PageLines Customize Plugin <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/base-child-theme">The Base Child Theme  <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/store-child-themes">Store Child Themes <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/overriding-default-css">Overriding Default CSS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/adding-less-css-support">Adding LESS CSS Support <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/adding-custom-rtl-support">Adding Custom RTL Support <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/adding-custom-scripts">Adding Custom Scripts <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/advanced/hooks">Advanced</a></p></li>
+                            <li><a href="/advanced/hooks">Hooks <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/less-css">LESS CSS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/override-sections">Overriding Sections <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/custom-sidebars">Creating Custom Sidebars <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/translating-dms">Translating DMS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/optimize-load-time">Optimize Load Time <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/tutorials/using-sections">Tutorials</a></p></li>
+                            <li><a href="/tutorials/using-sections">Using Sections <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/using-scrollspy">Using ScrollSpy <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/using-plugins">Using Plugins <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/browser-specific-css">Browser Specific CSS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/responsive-grid">The Responsive Grid <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/font-awesome">Font Awesome <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/shortcodes">Shortcodes <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/typography">Typography <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/html-css-utilities">HTML/CSS Utilities <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/adding-custom-menus">Adding Custom Menus <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/adding-custom-fonts">Adding Custom Fonts <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/section-area-styling">Section Area Styling <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/creating-a-branding-area">Creating a Branding Area <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/lockdown-visual-editor">Lockdown Visual Editor <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/support-troubleshooting/getting-support">Support + Troubleshooting</a></p></li>
+                            <li><a href="/support-troubleshooting/getting-support">Getting Support <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/diagnosing">Diagnosing <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/memory-allocation-error">Memory Allocation Error <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/white-screen-of-death">White Screen of Death <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/parse-error">Parse Error <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/internal-server-error">Internal Server Error <i class="icon-angle-right"></i></a></li>
+                        </ul>
+		<ul class="nav nav-list">
+                            <li><p class="lead"><a href="/developer/section-api">Development</a></p></li>
+                            <li><a href="/developer/section-api">Building Sections <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/developer/dms-theming">DMS Theming <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/developer/dms-option-engine">DMS Option Engine <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/developer/dms-conditionals">DMS Conditional Statements <i class="icon-angle-right"></i></a></li>
+                         
+                        </ul>
+                    </div>
+                    <div class="span9 docs-content">
+<h1>Creating A DMS Theme</h1>
+
+<p>DMS was designed from the beginning to be a &#39;better way&#39; to build themes. The reason for this is that while most themes are static code, DMS is dynamic and fluid. This allows designers to build websites and then seamlessly convert them to themes with a few clicks. </p>
+
+<p>We think this is a revolutionary concept.</p>
+
+<p>Once a theme is created you can then sell it on the PageLines Store or simply give it away to your site visitors as a freebie. </p>
+
+<h2>Theming Overview and Structure</h2>
+
+<p>At a high-level, creating a DMS theme is as simple as simply building an awesome website (using a child theme) and adding a configuration file. </p>
+
+<p>Although it is simple, lets go through the specifics. The basic diagram of a DMS theme is below. </p>
+
+<p><img src="http://docs.pagelines.com/img/theming-overview-graphic.jpg" /></p>
+
+<p>As you can see, DMS themes are just a combinations of a few files that are designed to recreate a site that you&#39;ve built with a child theme. </p>
+
+<p>DMS themes are treated very similar to WordPress child themes, only with a few extras to accomodate DMS features, templates and drag+drop configations. </p>
+
+<p>In practice the file structure of a DMS theme looks something like this: </p>
+
+<p><img src="http://docs.pagelines.com/img/theming-file-structure.jpg" /></p>
+
+<h3>Theme Configuration Files</h3>
+
+<p>DMS uses a unique configuration file system to make it simple and easy to recreate your theme vision on user installs. </p>
+
+<p><em>How it works:</em> Since DMS design is primarily database driven, this allows to create a site configuration file that adds your templates and options values when imported.</p>
+
+<p>Since config files are so nifty, we&#39;ve built a special tool that allows you to publish your site config (templates, global and type settings) to a file in your child theme with <em>one click</em>.</p>
+
+<p>You&#39;ll find this button under &#39;global options&#39; &gt; &#39;import/export&#39;. Make sure to check the &#39;publish to child theme&#39; option and the file will be generated and added to your child theme on click. 
+<img src="http://docs.pagelines.com/img/theming-publish-config.jpg" /></p>
+
+<h2>Sections and Section API</h2>
+
+<p>Next, a large component in DMS themes is creating customized sections. </p>
+
+<p>Sections are the modular components you create that have specific styles and can be dragged and dropped by users. </p>
+
+<p>In themes, sections are simply added to the <em>[theme root]/sections/</em> folder and use the standard options API. </p>
+
+<p>Read up on <a href="/developer/section-api">creating sections</a>.</p>
+
+<h2>Adding Styles with Style.less</h2>
+
+<p>DMS has an extremely robust LESS/CSS customization system for themes. </p>
+
+<p>DMS themes supports LESS via a single &#39;global&#39; style.less file and also individual style.less docs for each custom section.<br>
+As a bonus all LESS files in core DMS can be overridden or removed easily.</p>
+
+<h4>Child style.less</h4>
+
+<p>All LESS styles that are meant to be applied globally in the theme should be added to style.less. These rules will be applied on every page of a site. </p>
+
+<p>Good examples of items that belong in this document would be button styling for a button that will be used in several sections, or for common/standard css formats, like a media list or similar. </p>
+
+<div class="alert alert-info">
+    <strong>A note on modularity</strong> We recommend you add styles directed at specific sections to that section's style.less document. This helps keep your LESS modular and organized.
+</div>
+
+<h4>Overriding LESS Files</h4>
+
+<p>It is also possible to override core LESS files. 
+To do this, simply add a folder named &#39;less&#39; to your child theme. Inside it, add a file with the exact name of the less file you&#39;d like to override. </p>
+
+<p>For example, [child root]/less/modals.less, would override the core stylesheet directed at modals.</p>
+
+<h2>Adding PHP and Hooks To Your Theme</h2>
+
+<p>As an interface to customize the PHP workings of core DMS, PageLines uses hooks/filters methodology. If you&#39;re unfamiliar with how to use hooks and filters, we recommend you read <a href="http://wpcandy.com/teaches/how-to-use-wordpress-hooks/#.Uc9yij44XLM" target="_blank">this article</a>. </p>
+
+<p>All PHP related customizations belong in the functions.php file (or one that is imported into it).. </p>
+
+<p>As an example, this code is added to [child root]/functions.php on pagelines.com: </p>
+
+<pre><code class="php">
+// This hook adds some javascript that tracks the amount of times users hit a particular 404 in a day
+add_action(&#39;pagelines_not_found_actions&#39;, &#39;pagelines_404_event&#39;);
+function pagelines_404_event(){ 
+
+    echo &#39;&lt;script type=&quot;text/javascript&quot;&gt;&#39;;
+    echo google_track_event(&#39;errors&#39;, &#39;NotFound&#39;, get_page_url());
+    echo &#39;&lt;/script&gt;&#39;;
+
+}
+</code></pre>
+
+<h2>Adding Global Theme Options</h2>
+
+<p>Adding options to themes uses the same option API you&#39;ll find elsewhere in DMS. </p>
+
+<p>It consists of the option engine, some tab configuration information and a special function: pl_add_theme_tab().</p>
+
+<p>Here is an example:</p>
+
+<pre><code class="php">
+$my_theme_settings = array();
+$my_theme_settings[&#39;my_theme_key&#39;] = array(
+    &#39;pos&#39;   =&gt; 50,                  // Tab position (lower means higher)
+    &#39;name&#39;  =&gt; &#39;My Theme Name&#39;,     // Tab name
+    &#39;icon&#39;  =&gt; &#39;icon-pagelines&#39;,    // See &#39;font awesome&#39;
+    &#39;opts&#39;  =&gt; array(               // Option Engine Format...
+        array(
+            &#39;type&#39;          =&gt; &#39;text&#39;,
+            &#39;title&#39;         =&gt; &#39;Enter Something...&#39;,
+            &#39;key&#39;           =&gt; &#39;my_theme_option1&#39;,
+            &#39;label&#39;         =&gt; &#39;Some Label&#39;,
+        ),
+
+    )
+); 
+
+pl_add_theme_tab( $my_theme_settings );
+
+// The values of these settings should then be accessible via pl_setting()
+$val = pl_setting(&#39;my_theme_option1&#39;);
+
+
+</code></pre>
+
+<h2>Controlling Page On Theme Activation</h2>
+
+<p>When a theme is initially activated, it&#39;s always nice to control where the user is redirected for experience. In a theme you may want to add a &#39;Welcome to [Theme Name]!&#39; panel and redirect them there. </p>
+
+<p>Luckily we&#39;ve added a filter for this that makes it easy.. </p>
+
+<pre><code class="php">
+// NOTE: This filter must come early in the loading of your child theme, preferably at the top of your functions.php file
+
+add_filter(&#39;pl_activate_url&#39;, &#39;my_theme_activation_url&#39;);
+function my_theme_activation_url( $url ){ 
+
+    // Change the redirect to the theme tab, and a panel with ID of &#39;welcome&#39;
+    $url = home_url() . &#39;?tablink=theme&amp;tabsublink=welcome&#39;;
+
+    return $url;
+}
+</code></pre>
+            </div>
+		</section>
+
+    </div><!-- /container -->
+<div id="push"></div>
+</div> <!-- /wrap -->
+    <footer class="footer">
+        <div class="container">
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>
+				<i class="icon-github icon-2x"></i>
+				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/developer/dms-theming.md" target="_blank">Edit this page</a>.</p>
+        </div>
+    </footer>
+
+    
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="/js/google-code-prettify/prettify.js"></script>
+	<script src="http://docs.pagelines.com/js/common.js"></script>
+</body>
+</html>

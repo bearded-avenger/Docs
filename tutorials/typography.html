@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PageLines Documentation</title>
+    <meta name="description" content="A powerful front-end drag and drop design management system for fast and easy web development.">
+
+    <base href="http://docs.pagelines.com/">
+
+    <!-- styles -->
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="/css/docs.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+    <link href="/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link rel='stylesheet' id='master_font_import' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,800|Source+Sans+Pro:400,600' media='screen'>
+    <link rel="shortcut icon" href="http://docs.pagelines.com/img/favicon.png" type="image/x-icon" />
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div id="wrap">
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="brand" href="http://docs.pagelines.com/"><img src="http://docs.pagelines.com/img/logo.png" /></a> 
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right nav-detect">
+                            <li><a href="/developer"><i class="icon-code"></i> Developer Docs</a></li>
+                            <li><a href="http://www.pagelines.com"><i class="icon-home"></i> Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container section">
+            <section>
+                <div class="row-fluid">
+                    <div class="span3 docs-nav nav-detect">
+                        <ul class="nav nav-list active-menu">
+                            <li><p class="lead"><a href="/getting-started/system-requirements">Getting Started</a></p></li>
+                            <li><a href="/getting-started/system-requirements">Requirements <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/getting-started/installation">Installation <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/getting-started/upgrading-migration">Upgrading & Migration <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/getting-started/dashboard-account">Dashboard & Your Account <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/configure/visual-editor-overview">Configure</a></p></li>
+                            <li><a href="/configure/visual-editor-overview">Visual Editor Overview <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/configuring-sections">Sections Overview <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/using-templates">Using Templates <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/global-options">Using Global Options <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/pagelines-store">PageLines Store <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/customize/how-to-customize">Customize</a></p></li>
+                            <li><a href="/customize/how-to-customize">How to Customize <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/dms-customize-options">DMS Customize Options <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/pagelines-customize-plugin">PageLines Customize Plugin <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/base-child-theme">The Base Child Theme  <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/store-child-themes">Store Child Themes <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/overriding-default-css">Overriding Default CSS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/adding-less-css-support">Adding LESS CSS Support <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/adding-custom-rtl-support">Adding Custom RTL Support <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/adding-custom-scripts">Adding Custom Scripts <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/advanced/hooks">Advanced</a></p></li>
+                            <li><a href="/advanced/hooks">Hooks <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/less-css">LESS CSS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/override-sections">Overriding Sections <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/custom-sidebars">Creating Custom Sidebars <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/translating-dms">Translating DMS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/optimize-load-time">Optimize Load Time <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/tutorials/using-sections">Tutorials</a></p></li>
+                            <li><a href="/tutorials/using-sections">Using Sections <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/using-scrollspy">Using ScrollSpy <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/using-plugins">Using Plugins <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/browser-specific-css">Browser Specific CSS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/responsive-grid">The Responsive Grid <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/font-awesome">Font Awesome <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/shortcodes">Shortcodes <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/typography">Typography <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/html-css-utilities">HTML/CSS Utilities <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/adding-custom-menus">Adding Custom Menus <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/adding-custom-fonts">Adding Custom Fonts <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/section-area-styling">Section Area Styling <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/creating-a-branding-area">Creating a Branding Area <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/lockdown-visual-editor">Lockdown Visual Editor <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/support-troubleshooting/getting-support">Support + Troubleshooting</a></p></li>
+                            <li><a href="/support-troubleshooting/getting-support">Getting Support <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/diagnosing">Diagnosing <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/memory-allocation-error">Memory Allocation Error <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/white-screen-of-death">White Screen of Death <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/parse-error">Parse Error <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/internal-server-error">Internal Server Error <i class="icon-angle-right"></i></a></li>
+                        </ul>
+		<ul class="nav nav-list">
+                            <li><p class="lead"><a href="/developer/section-api">Development</a></p></li>
+                            <li><a href="/developer/section-api">Building Sections <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/developer/dms-theming">DMS Theming <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/developer/dms-option-engine">DMS Option Engine <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/developer/dms-conditionals">DMS Conditional Statements <i class="icon-angle-right"></i></a></li>
+                         
+                        </ul>
+                    </div>
+                    <div class="span9 docs-content">
+<div class="row-fluid">
+    <div class="span12">
+        <ul class="breadcrumb">
+            <li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+            <li><a href="http://docs.pagelines.com/tutorials">Tutorials</a> <span class="divider">/</span></li>
+            <li class="active">Typography</li>
+        </ul>
+    </div>
+</div>
+
+<h1>Typography</h1>
+
+<p>PageLines DMS typography is based on the powerful Bootstrap providing styling for tables, forms, buttons, and other standard interface elements.</p>
+
+<h2>Adjusting Fonts</h2>
+
+<p>Pagelines DMS comes with a selection of pre-installed fonts you can use on your site. To select a font or to edit the current font’s settings select the ‘typography’ tab from the DMS control panel.</p>
+
+<p>The typography panel is split into two sections, Primary text and Text headers. Both sections contain options to choose a font and select the font’s weight and size.</p>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/typography.jpg" alt=""></p>
+
+<p>Next to each options title there is a refresh button, which can be used to update the preview window with the current selection.</p>
+
+<p>Note: The base font size is a reference that will be scaled for the text used throughout your site.</p>
+
+<p>Note: Font weights with a * icon do not take affect on all browsers.</p>
+
+<h2>Adjusting font color</h2>
+
+<p>Pagelines DMS allows you to choose a custom font color for both the main text color and the linked text color. To set your color options select the global options tab from the DMS control panel and select color and style menu.</p>
+
+<p>For each of the text color options you can either enter the hex value directly into the color field, or select the desired using the inbuilt color picker. Use the refresh button next to each option to update the preview window with your new selection.</p>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/color-style.jpg" alt=""></p>
+
+<h2>Typography Examples</h2>
+
+<h3>Headings</h3>
+
+<p>All HTML headings, <code>&lt;h1&gt;</code> through <code>&lt;h6&gt;</code> are available.</p>
+
+<div markdown="1" class="docs-example">
+    <h1>h1. Header 1</h1>
+    <h2>h2. Header 2</h2>
+    <h3>h3. Header 3</h3>
+    <h4>h4. Header 4</h4>
+    <h5>h5. Header 5</h5>
+    <h6>h6. Header 6</h6>
+</div>
+
+<h3>Body</h3>
+
+<p>PageLines DMS’s global default <code>font-size</code> is 14px, with a <code>line-height</code> of 1.55em. This is applied to the <body> and all paragraphs. In addition, <code>&lt;p&gt;</code> (paragraphs) receive a top/bottom margin of 1.55em.</p>
+
+<div class="docs-example">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultricies dolor nec ante scelerisque consequat. Ut aliquet semper ipsum, a vehicula leo varius facilisis. Praesent lobortis consectetur venenatis.</p>
+    <p></p>
+    <p>Nullam pretium faucibus dui vel venenatis. Cras dapibus, dolor in suscipit lobortis, sapien eros tristique erat, ac eleifend augue quam posuere mauris. Donec dignissim diam eget tortor blandit ullamcorper. Maecenas sodales ornare nisi, in malesuada elit interdum eget.
+    </p>
+</div>
+
+<pre><code class="html">&lt;p&gt;...&lt;/p&gt;
+</code></pre>
+
+<h3>Lead body</h3>
+
+<p>Make a paragraph stand out by adding <code>.lead</code>.</p>
+
+<div class="docs-example">
+    <p class="zmt lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices viverra vehicula. Etiam commodo metus in ipsum ultricies in sodales.</p>
+</div>
+
+<pre><code class="html">&lt;p class=&quot;lead&quot;&gt;...&lt;/p&gt;
+</code></pre>
+
+<h3>Emphasis</h3>
+
+<p>Make use of HTML’s default emphasis tags to make your text standout.</p>
+
+<p>Bold</p>
+
+<p>For emphasizing a snippet of text with important</p>
+
+<div class="docs-example">
+<p>
+The following snippet of text is <strong>rendered as bold text</strong>.</p>
+</div>
+
+<pre><code class="html">&lt;strong&gt;rendered as bold text&lt;/strong&gt;
+</code></pre>
+
+<h3>Italic</h3>
+
+<p>For emphasizing a snippet of text with stress</p>
+
+<div class="docs-example">
+<p>
+The following snippet of text is <em>rendered as italicized text.</em>
+</p>
+</div>
+
+<pre><code class="html">&lt;em&gt;rendered as italicized text&lt;/em&gt;
+</code></pre>
+
+<h3>Emphasis classes</h3>
+
+<p>Display meaning through color with a handful of emphasis utility classes.</p>
+
+<div markdown="1" class="docs-example">
+    <p class="muted">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
+    <p class="text-warning">Etiam porta sem malesuada magna mollis euismod.</p>
+    <p class="text-error">Donec ullamcorper nulla non metus auctor fringilla.</p>
+    <p class="text-info">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.</p>
+    <p class="text-success">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
+</div>
+
+<pre><code class="html">&lt;p class=&quot;muted&quot;&gt;Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.&lt;/p&gt;
+&lt;p class=&quot;text-warning&quot;&gt;Etiam porta sem malesuada magna mollis euismod.&lt;/p&gt;
+&lt;p class=&quot;text-error&quot;&gt;Donec ullamcorper nulla non metus auctor fringilla.&lt;/p&gt;
+&lt;p class=&quot;text-info&quot;&gt;Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis.&lt;/p&gt;
+&lt;p class=&quot;text-success&quot;&gt;Duis mollis, est non commodo luctus, nisi erat porttitor ligula.&lt;/p&gt;
+</code></pre>
+
+<h3>Lists</h3>
+
+<h4>Unordered</h4>
+
+<p>A list of items in which the order does not explicitly matter.</p>
+
+<div class="docs-example">
+<ul>
+<li>Nulla volutpat aliquam velit
+<ul>
+<li>Phasellus iaculis neque</li>
+<li>Purus sodales ultricies</li>
+<li>Vestibulum laoreet porttitor sem</li>
+<li>Ac tristique libero volutpat at</li>
+</ul>
+</li>
+<li>Faucibus porta lacus fringilla vel</li>
+</ul>
+</div>
+
+<pre><code class="html">&lt;ul&gt;
+  &lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h4>Ordered</h4>
+
+<p>A list of items in which the order does explicitly matter.</p>
+
+<div class="docs-example">
+<ol>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Consectetur adipiscing elit</li>
+<li>Integer molestie lorem at massa</li>
+<li>Facilisis in pretium nisl aliquet</li>
+<li>Nulla volutpat aliquam velit</li>
+<li>Faucibus porta lacus fringilla vel</li>
+<li>Aenean sit amet erat nunc</li>
+<li>Eget porttitor lorem</li>
+</ol>
+</div>
+
+<pre><code class="html">&lt;ol&gt;
+  &lt;li&gt;...&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre>
+
+<h4>Unstyled</h4>
+
+<p>A list of items with no <code>list-style</code> or additional left padding.</p>
+
+<div class="docs-example">
+<ul class="unstyled">
+<li>Nulla volutpat aliquam velit
+<ul>
+<li>Phasellus iaculis neque</li>
+<li>Purus sodales ultricies</li>
+<li>Vestibulum laoreet porttitor sem</li>
+<li>Ac tristique libero volutpat at</li>
+</ul>
+</li>
+<li>Faucibus porta lacus fringilla vel</li>
+</ul>
+</div>
+
+<pre><code class="html">&lt;ul class=&quot;unstyled&quot;&gt;
+  &lt;li&gt;...&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h2>More Examples</h2>
+
+<p>For more information and examples on typography, head over to <a href="http://getbootstrap.com/2.3.2/base-css.html#typography">Bootstrap’s typography</a> page.</p>
+
+<div class="row-fluid">
+    <div class="span12">
+        <ul class="pager">
+            <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/shortcodes">&larr; Shortcodes</a></li>
+            <li class="pull-right"><a href="http://docs.pagelines.com/tutorials/html-css-utilities">HTML/CSS Utilities &rarr;</a></li>
+        </ul>
+    </div>
+</div>
+            </div>
+		</section>
+
+    </div><!-- /container -->
+<div id="push"></div>
+</div> <!-- /wrap -->
+    <footer class="footer">
+        <div class="container">
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>
+				<i class="icon-github icon-2x"></i>
+				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/tutorials/typography.md" target="_blank">Edit this page</a>.</p>
+        </div>
+    </footer>
+
+    
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="/js/google-code-prettify/prettify.js"></script>
+	<script src="http://docs.pagelines.com/js/common.js"></script>
+</body>
+</html>

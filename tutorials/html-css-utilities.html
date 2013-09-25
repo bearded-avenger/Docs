@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PageLines Documentation</title>
+    <meta name="description" content="A powerful front-end drag and drop design management system for fast and easy web development.">
+
+    <base href="http://docs.pagelines.com/">
+
+    <!-- styles -->
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="/css/docs.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+    <link href="/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link rel='stylesheet' id='master_font_import' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,800|Source+Sans+Pro:400,600' media='screen'>
+    <link rel="shortcut icon" href="http://docs.pagelines.com/img/favicon.png" type="image/x-icon" />
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div id="wrap">
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="brand" href="http://docs.pagelines.com/"><img src="http://docs.pagelines.com/img/logo.png" /></a> 
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right nav-detect">
+                            <li><a href="/developer"><i class="icon-code"></i> Developer Docs</a></li>
+                            <li><a href="http://www.pagelines.com"><i class="icon-home"></i> Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container section">
+            <section>
+                <div class="row-fluid">
+                    <div class="span3 docs-nav nav-detect">
+                        <ul class="nav nav-list active-menu">
+                            <li><p class="lead"><a href="/getting-started/system-requirements">Getting Started</a></p></li>
+                            <li><a href="/getting-started/system-requirements">Requirements <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/getting-started/installation">Installation <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/getting-started/upgrading-migration">Upgrading & Migration <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/getting-started/dashboard-account">Dashboard & Your Account <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/configure/visual-editor-overview">Configure</a></p></li>
+                            <li><a href="/configure/visual-editor-overview">Visual Editor Overview <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/configuring-sections">Sections Overview <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/using-templates">Using Templates <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/global-options">Using Global Options <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/pagelines-store">PageLines Store <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/customize/how-to-customize">Customize</a></p></li>
+                            <li><a href="/customize/how-to-customize">How to Customize <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/dms-customize-options">DMS Customize Options <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/pagelines-customize-plugin">PageLines Customize Plugin <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/base-child-theme">The Base Child Theme  <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/store-child-themes">Store Child Themes <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/overriding-default-css">Overriding Default CSS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/adding-less-css-support">Adding LESS CSS Support <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/adding-custom-rtl-support">Adding Custom RTL Support <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/adding-custom-scripts">Adding Custom Scripts <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/advanced/hooks">Advanced</a></p></li>
+                            <li><a href="/advanced/hooks">Hooks <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/less-css">LESS CSS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/override-sections">Overriding Sections <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/custom-sidebars">Creating Custom Sidebars <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/translating-dms">Translating DMS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/optimize-load-time">Optimize Load Time <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/tutorials/using-sections">Tutorials</a></p></li>
+                            <li><a href="/tutorials/using-sections">Using Sections <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/using-scrollspy">Using ScrollSpy <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/using-plugins">Using Plugins <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/browser-specific-css">Browser Specific CSS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/responsive-grid">The Responsive Grid <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/font-awesome">Font Awesome <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/shortcodes">Shortcodes <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/typography">Typography <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/html-css-utilities">HTML/CSS Utilities <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/adding-custom-menus">Adding Custom Menus <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/adding-custom-fonts">Adding Custom Fonts <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/section-area-styling">Section Area Styling <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/creating-a-branding-area">Creating a Branding Area <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/lockdown-visual-editor">Lockdown Visual Editor <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/support-troubleshooting/getting-support">Support + Troubleshooting</a></p></li>
+                            <li><a href="/support-troubleshooting/getting-support">Getting Support <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/diagnosing">Diagnosing <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/memory-allocation-error">Memory Allocation Error <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/white-screen-of-death">White Screen of Death <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/parse-error">Parse Error <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/internal-server-error">Internal Server Error <i class="icon-angle-right"></i></a></li>
+                        </ul>
+		<ul class="nav nav-list">
+                            <li><p class="lead"><a href="/developer/section-api">Development</a></p></li>
+                            <li><a href="/developer/section-api">Building Sections <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/developer/dms-theming">DMS Theming <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/developer/dms-option-engine">DMS Option Engine <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/developer/dms-conditionals">DMS Conditional Statements <i class="icon-angle-right"></i></a></li>
+                         
+                        </ul>
+                    </div>
+                    <div class="span9 docs-content">
+<div class="row-fluid">
+      <div class="span12">
+            <ul class="breadcrumb">
+                  <li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+                  <li><a href="http://docs.pagelines.com/tutorials">Tutorials</a> <span class="divider">/</span></li>
+                  <li class="active">HTML/CSS Utilities</li>
+            </ul>
+      </div>
+</div>
+
+<h1>HTML/CSS Utilities</h1>
+
+<p>The purpose of this tutorial is to show you cool HTML and CSS snippets built into PageLines DMS, which will enhance and extend your creations.</p>
+
+<h2>HTML</h2>
+
+<p>With minimal markup you can instantly have a styled page heading you’ll be so proud of, you just might invite her to meet your parents.</p>
+
+<pre><code class="html">&lt;div class=&quot;page-header&quot;&gt;
+      &lt;h1&gt;Utilities &lt;small&gt;CSS classes and HTML snips to enhance and extend your creations&lt;/small&gt;&lt;/h1&gt;
+&lt;/div&gt;
+</code></pre>
+
+<div class="docs-example">
+    <div class="page-header">
+        <h1>Utilities <small>CSS classes and HTML snips to enhance and extend your creations</small></h1>
+    </div>
+</div>
+
+<p>You can also specify a class of <code>.page-header-minor</code>, which will return a page heading with a reduced <code>margin-top</code>.</p>
+
+<h2>CSS</h2>
+
+<p>These pre-designed special CSS classes can be added to nearly any element to help aid in customizing.</p>
+
+<h3>Remove border</h3>
+
+<p>Adding this unique class <code>zb</code> to your element will specify a zero border, <code>zb</code> is an acronym of zero border.</p>
+
+<table class="table mid table-bordered table-striped">
+      <tbody>
+            <tr>
+                  <td class="span2 center"><code>.zb</code></td>
+                  <td>Specifies zero border on any element</td>
+            </tr>
+      </tbody>
+</table>
+
+<pre><code class="html">&lt;h1 class=&quot;zb&quot;&gt;This is a h1 Header, without a border, if it had one!&lt;/h1&gt;
+&lt;h2 class=&quot;zb&quot;&gt;This is a h2 Header, without a border, if it had one!&lt;/h1&gt;
+</code></pre>
+
+<h3>Removing top and bottom margins</h3>
+
+<p>Adding these unique classes <code>.zmt</code> and <code>.zmb</code> to your elements will specify a zero margin, <code>.zmt</code> and <code>zmb</code> are acronyms of zero margin top and zero margin bottom.</p>
+
+<table class="table mid table-bordered table-striped">
+      <thead>
+            <tr>
+                  <td class="span2 center"><code>.zmt</code></td>
+                  <td>Specifies zero margin on top of any element</td>
+            </tr>
+      </thead>
+      <tbody>
+            <tr>
+                  <td class="center"><code>.zmb</code></td>
+                  <td>Specifies zero margin on bottom of any element</td>
+            </tr>
+      </tbody>
+</table>
+
+<pre><code class="html">&lt;h1 class=&quot;zmt zmb&quot;&gt;This is a h1 Header, without top &amp; bottom margin!&lt;/h1&gt;
+&lt;h2 class=&quot;zmt zmb&quot;&gt;This is a h2 Header, without top &amp; bottom margin!&lt;/h1&gt;
+</code></pre>
+
+<div class="docs-example">
+      <h1 class="zmt zmb zb">This is a h1 Header, without top & bottom margin!</h1>
+      <h2 class="zmt zmb text-center zb">This is a h2 Header, without top & bottom margin!</h1>
+</div>
+
+<p>As you can see in the example above, applying the <code>zmt</code> &amp; <code>zmb</code> to both headers, has resulted with them both having zero applied to <code>margin-top</code> and <code>margin-bottom</code>.</p>
+
+<h3>Centering Elements</h3>
+
+<p>Adding these unique classes <code>.center</code> and <code>.tac</code> to your elements will align to the center.</p>
+
+<table class="table mid table-bordered table-striped">
+      <thead>
+            <tr>
+                  <td class="center"><code>.center</code></td>
+                  <td>Aligns elements to center</td>
+            </tr>
+      </thead>
+      <tbody>
+            <tr>
+                  <td class="center"><code>.tac</code></td>
+                  <td>Aligns elements to center and uses <code>!important</code> declaration</td>
+            </tr>
+      </tbody>
+</table>
+
+<pre><code class="html">&lt;h1 class=&quot;center zmt zmb&quot;&gt;This h1, is is aligned to the center&lt;/h1&gt;
+&lt;h2 class=&quot;tac zmt zmb&quot;&gt;This h2, is is aligned to the center&lt;/h1&gt;
+</code></pre>
+
+<div class="docs-example center">
+      <h1 class="center zmt zmb">This h1, is aligned to the center</h1>
+      <h2 class="tac zmt zmb">This h2, is is aligned to the center</h2>
+</div>
+
+<p>As you can see in the example above, applying the <code>.center</code> and <code>.tac</code> to the headers, aligns them centrally. The headers are also using the <code>zmt</code> &amp; <code>zmb</code> to demonstrate that you can mix and match the CSS utilities in your code.</p>
+
+<h3>Cool Image classes</h3>
+
+<p>Adding these unique classes <code>.pl-imageframe</code>, <code>.img-rounded</code>, <code>.img-circle</code> and <code>.img-polaroid</code> to your image(s) will produce some cool effects.</p>
+
+<pre><code class="html">&lt;img class=&quot;pl-imageframe&quot; src=&quot;&quot;&gt;
+</code></pre>
+
+<p>The example code above, is using the <code>.pl-imageframe</code> class, simply replace <code>class=&quot;pl-imageframe&quot;</code> with any of the classes to get your desired effect.</p>
+
+<table class="table mid table-bordered table-striped">
+      <thead>
+            <tr>
+                  <td class="center"><code>.pl-imageframe</code></td>
+                  <td>Add to img element, produces pretty frame</td>
+            </tr>
+      </thead>
+      <tbody>
+            <tr>
+                  <td class="center"><code>.img-rounded</code></td>
+                  <td>Add to img element, produces curved corners</td>
+            </tr>
+            <tr>
+                  <td class="center"><code>.img-circle</code></td>
+                  <td>Add to img element, produces circle image</td>
+            </tr>
+            <tr>
+                  <td class="center"><code>.img-polaroid</code></td>
+                  <td>Add to img element, produces framed image</td>
+            </tr>
+      </tbody>
+</table>
+
+<div class="row-fluid">
+      <div class="span12">
+          <img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/pl-img-classes.jpg">
+      </div>
+</div>
+
+<h3>Floats</h3>
+
+<p>Adding these unique classes <code>.pull-left</code> and <code>.pull-right</code> to your elements will allow you to float your element to the left or right hand side of your container.</p>
+
+<pre><code class="html">&lt;div class=&quot;pull-left&quot;&gt;...&lt;/div&gt;
+&lt;div class=&quot;pull-right&quot;&gt;...&lt;/div&gt;
+</code></pre>
+
+<h3>Visibility</h3>
+
+<p>Using our integration of Bootstrap, you can use these visibility classes to show/hide elemtents of your site for specific devices.</p>
+
+<table class="table table-bordered table-striped responsive-utilities">
+            <thead>
+              <tr>
+                <th>Class</th>
+                <th>Phones <small>767px and below</small></th>
+                <th>Tablets <small>979px to 768px</small></th>
+                <th>Desktops <small>Default</small></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th><code>.visible-phone</code></th>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+              </tr>
+              <tr>
+                <th><code>.visible-tablet</code></th>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+              </tr>
+              <tr>
+                <th><code>.visible-desktop</code></th>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+              </tr>
+              <tr>
+                <th><code>.hidden-phone</code></th>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+                <td class="is-visible">Visible</td>
+              </tr>
+              <tr>
+                <th><code>.hidden-tablet</code></th>
+                <td class="is-visible">Visible</td>
+                <td class="is-hidden">Hidden</td>
+                <td class="is-visible">Visible</td>
+              </tr>
+              <tr>
+      <th><code>.hidden-desktop</code></th>
+      <td class="is-visible">Visible</td>
+      <td class="is-visible">Visible</td>
+      <td class="is-hidden">Hidden</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We recommend using these on a limited basis to avoide creating entirely different versions of the same website. Instead, use them to complement each device. The visibility classes are not compatible with tables.</p>
+
+<h4>Testing</h4>
+
+<p>Resize your browser or load on different devices to test these classes.</p>
+
+<div class="row-fluid">
+    <div class="span12">
+        <ul class="pager">
+            <li class="pull-left"><a href="http://docs.pagelines.com/tutorials/typography">&larr; Typography</a></li>
+            <li class="pull-right"><a href="http://docs.pagelines.com/tutorials/adding-custom-menus">Adding Custom Menus &rarr;</a></li>
+        </ul>
+    </div>
+</div>
+            </div>
+		</section>
+
+    </div><!-- /container -->
+<div id="push"></div>
+</div> <!-- /wrap -->
+    <footer class="footer">
+        <div class="container">
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>
+				<i class="icon-github icon-2x"></i>
+				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/tutorials/html-css-utilities.md" target="_blank">Edit this page</a>.</p>
+        </div>
+    </footer>
+
+    
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="/js/google-code-prettify/prettify.js"></script>
+	<script src="http://docs.pagelines.com/js/common.js"></script>
+</body>
+</html>

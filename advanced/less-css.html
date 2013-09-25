@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PageLines Documentation</title>
+    <meta name="description" content="A powerful front-end drag and drop design management system for fast and easy web development.">
+
+    <base href="http://docs.pagelines.com/">
+
+    <!-- styles -->
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="/css/docs.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+    <link href="/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link rel='stylesheet' id='master_font_import' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600,800|Source+Sans+Pro:400,600' media='screen'>
+    <link rel="shortcut icon" href="http://docs.pagelines.com/img/favicon.png" type="image/x-icon" />
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div id="wrap">
+        <div class="navbar navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                        <a class="brand" href="http://docs.pagelines.com/"><img src="http://docs.pagelines.com/img/logo.png" /></a> 
+                    <div class="nav-collapse collapse">
+                        <ul class="nav pull-right nav-detect">
+                            <li><a href="/developer"><i class="icon-code"></i> Developer Docs</a></li>
+                            <li><a href="http://www.pagelines.com"><i class="icon-home"></i> Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container section">
+            <section>
+                <div class="row-fluid">
+                    <div class="span3 docs-nav nav-detect">
+                        <ul class="nav nav-list active-menu">
+                            <li><p class="lead"><a href="/getting-started/system-requirements">Getting Started</a></p></li>
+                            <li><a href="/getting-started/system-requirements">Requirements <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/getting-started/installation">Installation <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/getting-started/upgrading-migration">Upgrading & Migration <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/getting-started/dashboard-account">Dashboard & Your Account <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/configure/visual-editor-overview">Configure</a></p></li>
+                            <li><a href="/configure/visual-editor-overview">Visual Editor Overview <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/configuring-sections">Sections Overview <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/using-templates">Using Templates <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/global-options">Using Global Options <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/configure/pagelines-store">PageLines Store <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/customize/how-to-customize">Customize</a></p></li>
+                            <li><a href="/customize/how-to-customize">How to Customize <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/dms-customize-options">DMS Customize Options <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/pagelines-customize-plugin">PageLines Customize Plugin <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/base-child-theme">The Base Child Theme  <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/store-child-themes">Store Child Themes <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/overriding-default-css">Overriding Default CSS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/adding-less-css-support">Adding LESS CSS Support <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/adding-custom-rtl-support">Adding Custom RTL Support <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/customize/adding-custom-scripts">Adding Custom Scripts <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/advanced/hooks">Advanced</a></p></li>
+                            <li><a href="/advanced/hooks">Hooks <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/less-css">LESS CSS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/override-sections">Overriding Sections <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/custom-sidebars">Creating Custom Sidebars <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/translating-dms">Translating DMS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/advanced/optimize-load-time">Optimize Load Time <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/tutorials/using-sections">Tutorials</a></p></li>
+                            <li><a href="/tutorials/using-sections">Using Sections <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/using-scrollspy">Using ScrollSpy <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/using-plugins">Using Plugins <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/browser-specific-css">Browser Specific CSS <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/responsive-grid">The Responsive Grid <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/font-awesome">Font Awesome <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/shortcodes">Shortcodes <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/typography">Typography <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/html-css-utilities">HTML/CSS Utilities <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/adding-custom-menus">Adding Custom Menus <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/adding-custom-fonts">Adding Custom Fonts <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/section-area-styling">Section Area Styling <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/creating-a-branding-area">Creating a Branding Area <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/tutorials/lockdown-visual-editor">Lockdown Visual Editor <i class="icon-angle-right"></i></a></li>
+                        </ul>
+                        <ul class="nav nav-list">
+                            <li><p class="lead"><a href="/support-troubleshooting/getting-support">Support + Troubleshooting</a></p></li>
+                            <li><a href="/support-troubleshooting/getting-support">Getting Support <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/diagnosing">Diagnosing <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/memory-allocation-error">Memory Allocation Error <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/white-screen-of-death">White Screen of Death <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/parse-error">Parse Error <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/support-troubleshooting/internal-server-error">Internal Server Error <i class="icon-angle-right"></i></a></li>
+                        </ul>
+		<ul class="nav nav-list">
+                            <li><p class="lead"><a href="/developer/section-api">Development</a></p></li>
+                            <li><a href="/developer/section-api">Building Sections <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/developer/dms-theming">DMS Theming <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/developer/dms-option-engine">DMS Option Engine <i class="icon-angle-right"></i></a></li>
+                            <li><a href="/developer/dms-conditionals">DMS Conditional Statements <i class="icon-angle-right"></i></a></li>
+                         
+                        </ul>
+                    </div>
+                    <div class="span9 docs-content">
+<div class="row-fluid">
+  <div class="span12">
+    <ul class="breadcrumb">
+        <li><a href="http://docs.pagelines.com/">Docs</a> <span class="divider">/</span></li>
+        <li><a href="http://docs.pagelines.com/advanced">Advanced</a> <span class="divider">/</span></li>
+        <li class="active">LESS</li>
+    </ul>
+  </div>
+</div>
+
+<h1>LESS</h1>
+
+<p>LESS is a stylesheet language that extends CSS with dynamic behavior such as variables, mixins, operations and functions. LESS reduces the overall time it takes to create and maintain your code base, while also keeping your code clean and optimized.</p>
+
+<h2>Variables</h2>
+
+<p>Variables allow you to specify widely-used values in a single place, and then re-use them throughout the style sheet, making global changes as easy as changing a single line of code. An example is shown below:</p>
+
+<pre><code class="css">//LESS
+@myBlue:              #08D;
+
+h1, h2, h3, h4, h5, h6 {
+    color: @myBlue;
+}
+a:hover {
+    color: @myBlue;
+}
+</code></pre>
+
+<pre><code class="css">// Compiled CSS
+h1, h2, h3, h4, h5, h6 {
+    color: #08D;
+}
+a:hover {
+    color: #08D;
+}
+</code></pre>
+
+<h2>Mixins</h2>
+
+<p>Mixins allow you to embed all the properties of one class into another by simply including the class name as one of its properties. It’s just like variables, but for whole classes.  Mixins can also behave like functions, and take arguments, as seen in the example below:</p>
+
+<pre><code class="css">// LESS
+.rounded-corners (@radius: 5px) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    -ms-border-radius: @radius;
+    -o-border-radius: @radius;
+    border-radius: @radius;
+}
+
+#header {
+    .rounded-corners;
+}
+#footer {
+    .rounded-corners(10px);
+}
+</code></pre>
+
+<pre><code class="css">// Compiled CSS
+#header {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+}
+#footer {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border-radius: 10px;
+}
+</code></pre>
+
+<h2>Nested Rules</h2>
+
+<p>Rather than constructing long selector names to specify inheritance, in LESS you can simply nest selectors inside other selectors. This makes inheritance clear and style sheets shorter.</p>
+
+<pre><code class="css">// LESS
+#header {
+    h1 {
+        font-size: 26px;
+        font-weight: bold;
+        }
+        p { font-size: 12px;
+        a { text-decoration: none;
+            &amp;:hover { border-width: 1px }
+        }
+    }
+}
+</code></pre>
+
+<pre><code class="css">// Compiled CSS
+#header h1 {
+    font-size: 26px;
+    font-weight: bold;
+}
+#header p {
+    font-size: 12px;
+}
+#header p a {
+    text-decoration: none;
+}
+#header p a:hover {
+    border-width: 1px;
+}
+</code></pre>
+
+<h2>Functions &amp; Operations</h2>
+
+<p>Functions &amp; Operations provides the ability to use mathematical operations in your CSS values, as well as manipulate values through functions.</p>
+
+<pre><code class="css">// LESS
+@the-border:        1px;
+@base-color:        #111;
+@red:               #842210;
+
+#header {
+    color: (@base-color * 3);
+    border-left: @the-border;
+    border-right: (@the-border * 2);
+}
+#footer {
+    color: (@base-color + #003300);
+    border-color: desaturate(@red, 10%);
+}
+</code></pre>
+
+<pre><code class="css">// Compiled CSS
+
+#header {
+    color: #333;
+    border-left: 1px;
+    border-right: 2px;
+}
+#footer {
+    color: #114411;
+    border-color: #7d2717;
+}
+</code></pre>
+
+<p>The above examples introduce you to the basics of LESS. For a more detailed overview, please visit the <a href="http://lesscss.org/">http://lesscss.org/</a></p>
+
+<h2>DMS Variables</h2>
+
+<p>These are the variables which are part of PageLines DMS core.</p>
+
+<h3>Layout</h3>
+
+<div class="row-fluid">
+    <div class="span12 zmb">
+        <table class="table mid table-bordered table-striped table-condensed">
+            <tbody>
+                <tr>
+                    <td class="span3 center"><code>@pl-base</code></td>
+                    <td>Page background color</td>
+                </tr>
+                <tr>
+                    <td class="center"><code>@pl-page-width</code></td>
+                    <td>User set page width</td>
+                </tr>
+                <tr>
+                    <td class="center"><code>@pl-content-width</code></td>
+                    <td>Uset set content width</td>
+                </tr>
+                <tr>
+                    <td class="center"><code>@pl-responsive-width</code></td>
+                    <td>User set responsive width</td>
+                </tr>
+                <tr>
+                    <td class="center"><code>@pl-sidebar-width</code></td>
+                    <td>User set sidebar width</td>
+                </tr>
+                <tr>
+                    <td class="center"><code>@pl-secondary-width</code></td>
+                    <td>User set secondary sidebar width</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<h3>Path</h3>
+
+<div class="row-fluid">
+    <div class="span12 zmb">
+        <table class="table mid table-bordered table-striped table-condensed">
+            <tbody>
+                <tr>
+                    <td class="span3 center"><code>@{plChildRoot}</code></td>
+                    <td>Used to specify root Child theme URL</td>
+                </tr>
+                <tr>
+                    <td class="center"><code>@{plRoot}</code></td>
+                    <td>Used to set Parent theme dir</td>
+                </tr>
+                <tr>
+                    <td class="center"><code>@{plSectionsRoot}</code></td>
+                    <td>Used to specify /sections dir</td>
+                </tr>
+                <tr>
+                    <td class="center"><code>@{plExtendRoot}</code></td>
+                    <td>Used to specify section root in pagelines-sections plugin</td>
+                </tr>
+                <tr>
+                    <td class="center"><code>@{plPluginsRoot}</code></td>
+                    <td>Used to specify base plugin path directory</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<h4>Example</h4>
+
+<pre><code class="css">// In Sections
+.example {
+    background: url(@{plSectionsRoot}/yoursection/img/bar.png);
+}
+
+// In Child Themes
+.example {
+    background: url(@{plChildRoot}/img/bar.png);
+}
+</code></pre>
+
+<h3>Responsive</h3>
+
+<div class="row-fluid zmb">
+    <div class="span12 zmb">
+        <table class="table mid table-bordered table-striped table-condensed">
+            <tbody>
+                <tr>
+                    <td><code>@resLargeDesktop</code></td>
+                    <td><code>1200px</code></td>
+                </tr>
+                <tr>
+                    <td><code>@resDesktop</code></td>
+                    <td><code>979px</code></td>
+                </tr>
+                <tr>
+                    <td><code>@resPortraitTablet</code></td>
+                    <td><code>767px</code></td>
+                </tr>
+                <tr>
+                    <td><code>@resPhoneLandscape</code></td>
+                    <td><code>480px</code></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<h3>Typography</h3>
+
+<div class="row-fluid zmb">
+    <div class="span12 zmb">
+        <table class="table mid table-bordered table-striped table-condensed">
+            <tbody>
+                <tr>
+                    <td><code>@baseFontSize</code></td>
+                    <td><code>@plFontSize</code></td>
+                </tr>
+                <tr>
+                    <td><code>@baseLineHeight</code></td>
+                    <td><code>@plFontSize * 1.55</code></td>
+                </tr>
+                <tr>
+                    <td><code>@propLineHeight</code></td>
+                    <td><code>1.55em</code></td>
+                </tr>
+                <tr>
+                    <td><code>@baseHeaderSize</code></td>
+                    <td><code>@plHeaderSize</code></td>
+                </tr>
+                <tr>
+                    <td><code>@defaultFont</code></td>
+                    <td><code>"Helvetica Neue", "Helvetica", Arial, serif;</code></td>
+                </tr>
+                <tr>
+                    <td><code>@codeFont</code></td>
+                    <td><code>Menlo, Monaco, "Courier New", monospace;</code></td>
+                </tr>
+                <tr>
+                    <td><code>@baseFontFamily</code></td>
+                    <td><code>@plBaseFont</code></td>
+                </tr>
+                <tr>
+                    <td><code>@baseFontWeight</code></td>
+                    <td><code>@plBaseWeight</code></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<h3>Component Sizing</h3>
+
+<p>Based on <code>font-size</code> 14px and <code>line-height</code> 20px.</p>
+
+<div class="row-fluid zmb">
+    <div class="span12 zmb">
+        <table class="table mid table-bordered table-striped table-condensed">
+            <tbody>
+                <tr>
+                    <td><code>@fontSizeLarge</code></td>
+                    <td><code>@baseFontSize * 1.25;</code> ~18px</td>
+                </tr>
+                <tr>
+                    <td><code>@fontSizeSmall<code></td>
+                    <td><code>@baseFontSize * 0.85;</code> ~12px</td>
+                </tr>
+                <tr>
+                    <td><code>@fontSizeMini</code></td>
+                    <td><code>@baseFontSize * 0.75;</code> ~11px</td>
+                </tr>
+                <tr>
+                    <td><code>@paddingLarge</code></td>
+                    <td><code>11px 19px;</code> // 44px</td>
+                </tr>
+                <tr>
+                    <td><code>@paddingSmall</code></td>
+                    <td><code>2px 10px;</code> // 26px</td>
+                </tr>
+                <tr>
+                    <td><code>@paddingMini</code></td>
+                    <td><code>0 6px;</code> // 22px</td>
+                </tr>
+                <tr>
+                    <td><code>@baseBorderRadius</code></td>
+                    <td><code>4px;</code></td>
+                </tr>
+                <tr>
+                    <td><code>@borderRadiusLarge</code></td>
+                    <td><code>6px;</code></td>
+                </tr>
+                <tr>
+                    <td><code>@borderRadiusSmall</code></td>
+                    <td><code>3px;</code></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<h3>Color Variables</h3>
+
+<h4>Grays</h4>
+
+<div class="row-fluid zmb">
+    <div class="span12 zmb">
+        <table class="table mid table-bordered table-striped table-condensed">
+            <tbody>
+                <tr>
+                    <td class="span4"><code>@black</code></td>
+                    <td><code>#000</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #000"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@grayDarker</code></td>
+                    <td><code>#222</code></td>
+                    <td><span class="swatch" style="background-color: #222"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@grayDark</code></td>
+                    <td><code>#333</code></td>
+                    <td><span class="swatch" style="background-color: #333"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@gray</code></td>
+                    <td><code>#555</code></td>
+                    <td><span class="swatch" style="background-color: #555"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@grayLight</code></td>
+                    <td><code>#999</code></td>
+                    <td><span class="swatch" style="background-color: #999"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@grayLighter</code></td>
+                    <td><code>#eee</code></td>
+                    <td><span class="swatch" style="background-color: #eee"></span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<h4>Accent Colors</h4>
+
+<div class="row-fluid zmb">
+    <div class="span12 zmb">
+        <table class="table mid table-bordered table-striped table-condensed">
+            <tbody>
+                <tr>
+                    <td><code>@white</code></td>
+                    <td><code>#fff</code></td>
+                    <td><span class="swatch swatch-bordered" style="background-color: #fff"></span></td>
+                </tr>
+                <tr>
+                    <td class="span4"><code>@blue</code></td>
+                    <td><code>#049cdb</td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #049cdb"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@green</code></td>
+                    <td><code>#46a546</code></td>
+                    <td><span class="swatch" style="background-color: #46a546"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@red</code></td>
+                    <td><code>#9d261d</code></td>
+                    <td><span class="swatch" style="background-color: #9d261d"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@yellow</code></td>
+                    <td><code>#ffc40d</code></td>
+                    <td><span class="swatch" style="background-color: #ffc40d"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@orange</code></td>
+                    <td><code>#f89406</code></td>
+                    <td><span class="swatch" style="background-color: #f89406"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@pink</code></td>
+                    <td><code>#c3325f</code></td>
+                    <td><span class="swatch" style="background-color: #c3325f"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@purple</code></td>
+                    <td><code>#7a43b6</code></td>
+                    <td><span class="swatch" style="background-color: #7a43b6"></span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<h4>Buttons</h4>
+
+<div class="row-fluid zmb">
+    <div class="span12 zmb">
+        <table class="table mid table-bordered table-striped table-condensed">
+            <tbody>
+                <tr>
+                    <td class="span4"><code>@btnBackground</code></td>
+                    <td><code>@white</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #fff"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@btnBackgroundHighlight</code></td>
+                    <td><code>darken(@white, 10%)</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #e6e6e6"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@btnBorder</code></td>
+                    <td><code>darken(@white, 20%)</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #ccc"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@btnPrimaryBackground</code></td>
+                    <td><code>@linkColor</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #08c"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@btnPrimaryBackgroundHighlight</code></td>
+                    <td><code>spin(@btnPrimaryBackground, 15%)</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #05c"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@btnInfoBackground</code></td>
+                    <td><code>#5bc0de</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #5bc0de"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@btnInfoBackgroundHighlight</code></td>
+                    <td><code>#2f96b4</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #2f96b4"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@btnSuccessBackground</code></td>
+                    <td><code>#62c462</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #62c462"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@btnSuccessBackgroundHighlight</code></td>
+                    <td><code>#51a351</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #51a351"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@btnWarningBackground</code></td>
+                    <td><code>lighten(@orange, 15%)</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #fbb450"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@btnWarningBackgroundHighlight</code></td>
+                    <td><code>@orange</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #f89406"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@btnImportantBackground</code></td>
+                    <td><code>#ee5f5b</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #ee5f5b"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@btnImportantBackgroundHighlight</code></td>
+                    <td><code>#bd362f</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #bd362f"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@btnInverseBackground</code></td>
+                    <td><code>@gray</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #555"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@btnInverseBackgroundHighlight</code></td>
+                    <td><code>@grayDarker</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #222"></span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<h4>Form States and Alerts</h4>
+
+<div class="row-fluid zmb">
+    <div class="span12 zmb">
+        <table class="table mid table-bordered table-striped table-condensed">
+            <tbody>
+                <tr>
+                    <td class="span4"><code>@warningText</code></td>
+                    <td><code>#c09853</code></td>
+                    <td><span class="swatch" style="background-color: #c09853"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@warningBackground</code></td>
+                    <td><code>#f3edd2</code></td>
+                    <td class="swatch-col"><span class="swatch" style="background-color: #f3edd2"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@errorText</code></td>
+                    <td><code>#b94a48</code></td>
+                    <td><span class="swatch" style="background-color: #b94a48"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@errorBackground</code></td>
+                    <td><code>#f2dede</code></td>
+                    <td><span class="swatch" style="background-color: #f2dede"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@successText</code></td>
+                    <td><code>#468847</code></td>
+                    <td><span class="swatch" style="background-color: #468847"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@successBackground</code></td>
+                    <td><code>#dff0d8</code></td>
+                    <td><span class="swatch" style="background-color: #dff0d8"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@infoText</code></td>
+                    <td><code>#3a87ad</code></td>
+                    <td><span class="swatch" style="background-color: #3a87ad"></span></td>
+                </tr>
+                <tr>
+                    <td><code>@infoBackground</code></td>
+                    <td><code>#d9edf7</code></td>
+                    <td><span class="swatch" style="background-color: #d9edf7"></span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<p>This is a partial listing, for the entire variable library, see the <code>/less</code> directory located in <code>/wp-content/themes/pagelines/</code>.</p>
+
+<h2>DMS Mixins</h2>
+
+<div class="row-fluid zmb">
+    <div class="span12 zmb">
+        <table class="table mid table-bordered table-striped table-condensed">
+            <tbody>
+                <tr>
+                    <td><code>.border-radius()</code></td>
+                    <td>Round the corners of an element. Can be a single value or four space-separated values</td>
+                </tr>
+                    <tr>
+                    <td><code>.box-shadow()</code></td>
+                    <td>Add a drop shadow to an element</td>
+                </tr>
+                <tr>
+                    <td><code>.transition()</code></td>
+                    <td>Add CSS3 transition effect (e.g., <code>all .2s linear</code>)</td>
+                </tr>
+                <tr>
+                    <td><code>.box-sizing()</code></td>
+                    <td>Change the box model for an element (e.g., <code>border-box</code> for a full-width <code>input</code>)</td>
+                </tr>
+                <tr>
+                    <td><code>#translucent &gt; .background()</code></td>
+                    <td>Give an element a translucent background color</td>
+                </tr>
+                <tr>
+                    <td><code>#translucent &gt; .border()</code></td>
+                    <td>Give an element a translucent border color</td>
+                </tr>
+                <tr>
+                    <td><code>#gradient &gt; .vertical()</code></td>
+                    <td>Create a cross-browser vertical background gradient</td>
+                </tr>
+                <tr>
+                    <td><code>#gradient &gt; .horizontal()</code></td>
+                    <td>Create a cross-browser horizontal background gradient</td>
+                </tr>
+                <tr>
+                    <td><code>#gradient &gt; .directional()</code></td>
+                    <td>Create a cross-browser directional background gradient</td>
+                </tr>
+                <tr>
+                    <td><code>#gradient &gt; .vertical-three-colors()</code></td>
+                    <td>Create a cross-browser three-color background gradient</td>
+                </tr>
+                <tr>
+                    <td><code>#gradient &gt; .radial()</code></td>
+                    <td>Create a cross-browser radial background gradient</td>
+                </tr>
+                <tr>
+                    <td><code>#gradient &gt; .striped()</code></td>
+                    <td>Create a cross-browser striped background gradient</td>
+                </tr>
+                <tr>
+                    <td><code>#gradientBar()</code></td>
+                    <td>Used for buttons to assign a gradient and slightly darker border</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<h4>Example</h4>
+
+<h5>Border Radius</h5>
+
+<pre><code class="css">// LESS
+.example {
+    .border-radius(5px);
+}
+</code></pre>
+
+<pre><code class="css">// Compiled CSS
+.example {
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+</code></pre>
+
+<h5>Box Shadow</h5>
+
+<pre><code class="css">// LESS
+.example {
+    .box-shadow(0 0 5px black);
+}
+</code></pre>
+
+<pre><code class="css">// Compiled CSS
+.example {
+    -webkit-box-shadow:0px 0px 5px black;
+    -moz-box-shadow:0px 0px 5px black;
+    box-shadow:0px 0px 5px black;
+}
+</code></pre>
+
+<h5>Gradients</h5>
+
+<pre><code class="css">// LESS
+.example {
+    #gradient &gt; .vertical (#000000,#333333);
+}
+</code></pre>
+
+<pre><code class="css">// Compiled CSS
+.example {
+    background-color: #000000;
+    background-image: -moz-linear-gradient(top,#000000, #333333;
+    background-image: -ms-linear-gradient(top,#000000, #333333;
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#000000, #333333;
+    background-image: -webkit-linear-gradient(top,#000000, #333333;
+    background-image: -o-linear-gradient(top,#000000, #333333;
+    background-image: linear-gradient(top,#000000, #333333;
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#000000, #333333;
+}
+</code></pre>
+
+<p>This is a partial listing, for the entire mixins library, see the <code>mixin.less</code> file located in <code>/wp-content/themes/pagelines/less/</code>.</p>
+
+<h2>Example</h2>
+
+<p>In the example below, we will be using the Masthead section, and using the gradient and border radius mixins. The standard Masthed section looks like this:</p>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/override-default-masthead.jpg" alt=""></p>
+
+<p>Using Google Chrome&#39;s web dev tools to inspect the Masthead section, we can indentify the correct class(es), needed to override the sections default CSS.</p>
+
+<pre><code class="css">.masthead {
+    position: relative;
+    margin-bottom: 65.1px;
+}
+</code></pre>
+
+<p>By using the the LESS mixins<code>.border-radius();</code> and <code>#gradient &gt; .vertical()</code>, we can add a gradient background with a border radius to the masthead with just a few lines of code.</p>
+
+<pre><code class="css">#site .masthead {
+    #gradient &gt; .vertical(#05F, #09F);
+    .border-radius(8px);
+    padding: 20px;
+}
+</code></pre>
+
+<p>We will also add some <code>padding: 20px;</code> just to give our header, text and buttons some space, the end result looks like this:</p>
+
+<p><img src="https://raw.github.com/pagelines/Docs/master/gh-pages-template/public/img/custom-less-masthead.jpg" alt=""></p>
+
+<p>As you can see, with just three lines of LESS CSS, we have created a browser compatible customization. If we were to use standard CSS, our custom CSS would look like this:</p>
+
+<pre><code class="css">#site .masthead {
+    background-color: #008FBE;
+    background-image: -moz-linear-gradient(top, #08A, #09D);
+    background-image: -ms-linear-gradient(top, #08A, #09D);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#08A), to(#09D));
+    background-image: -webkit-linear-gradient(top, #06F, #09F);
+    background-image: -o-linear-gradient(top, #08A, #09D);
+    background-image: linear-gradient(top, #08A, #09D);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=&#39;#0088aa&#39;, endColorstr=&#39;#0099dd&#39;, GradientType=0);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    padding: 20px;
+}
+</code></pre>
+
+<div class="row-fluid">
+    <div class="span12">
+        <ul class="pager">
+            <li class="pull-left"><a href="http://docs.pagelines.com/advanced/hooks">&larr; Hooks</a></li>
+            <li class="pull-right"><a href="http://docs.pagelines.com/advanced/override-sections">Override Sections &rarr;</i></a></li>
+        </ul>
+    </div>
+</div>
+            </div>
+		</section>
+
+    </div><!-- /container -->
+<div id="push"></div>
+</div> <!-- /wrap -->
+    <footer class="footer">
+        <div class="container">
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p>
+				<i class="icon-github icon-2x"></i>
+				Found errors? Think you can improve this documentation? <a href="https://github.com/pagelines/Docs/tree/master/advanced/less-css.md" target="_blank">Edit this page</a>.</p>
+        </div>
+    </footer>
+
+    
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="/js/google-code-prettify/prettify.js"></script>
+	<script src="http://docs.pagelines.com/js/common.js"></script>
+</body>
+</html>
